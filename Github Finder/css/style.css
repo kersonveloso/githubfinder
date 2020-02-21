@@ -1,0 +1,34 @@
+:root {
+    --space: 14px;
+    --header: 28px;
+}
+
+.avatar {
+    width: 100%;
+    border-radius: 4%;
+}
+
+.octicon {
+    fill: white;
+}
+
+.pageTitle {
+    padding-left: var(--space);
+}
+
+.pageHeader {
+    margin-top: var(--header);
+    margin-bottom: var(--space);
+}
+
+#goTo {
+    margin-top: var(--space);
+}
+
+.searchContainer {
+    padding: var(--space);
+}
+
+.btn-light {
+    background-color: linear-gradient(-180deg, #e7e7e7, #e4ecf1 90%) !important;
+}
